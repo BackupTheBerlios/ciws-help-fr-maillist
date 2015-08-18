@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ciws-help-fr] Installation sur cl&#233; USB et mises &#224; jour
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ciws-help-fr/2009-February/index.html" >
+   <LINK REL="made" HREF="mailto:ciws-help-fr%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help-fr%5D%0A%20%3D%3Futf-8%3Fq%3FInstallation_sur_cl%3DC3%3DA9_USB_et_mises_%3F%3D%0A%20%3D%3Futf-8%3Fq%3F%3DC3%3DA0_jour%3F%3D&In-Reply-To=%3C49907764.3090109%40gensys-net.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000009.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ciws-help-fr] Installation sur cl&#233; USB et mises &#224; jour</H1>
+    <B>Olivier</B> 
+    <A HREF="mailto:ciws-help-fr%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help-fr%5D%0A%20%3D%3Futf-8%3Fq%3FInstallation_sur_cl%3DC3%3DA9_USB_et_mises_%3F%3D%0A%20%3D%3Futf-8%3Fq%3F%3DC3%3DA0_jour%3F%3D&In-Reply-To=%3C49907764.3090109%40gensys-net.eu%3E"
+       TITLE="[Ciws-help-fr] Installation sur cl&#233; USB et mises &#224; jour">oliv at gensys-net.eu
+       </A><BR>
+    <I>Mon Feb  9 19:35:16 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000009.html">[Ciws-help-fr] Installation sur cl&#233; USB et mises &#224; jour
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10">[ date ]</a>
+              <a href="thread.html#10">[ thread ]</a>
+              <a href="subject.html#10">[ subject ]</a>
+              <a href="author.html#10">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&#65279;Bonjour,
+
+Tout d'abord, merci pour votre int&#233;r&#234;t pour Cooperation-iws.
+
+* Pour l'&#233;cran noir au premier boot: c'est normal, il faut attendre que 
+le syst&#232;me copie les donn&#233;es sur la partition persistente. Cela n'arrive 
+qu'une fois au premier d&#233;marrage et cela peut &#234;tre assez long suivant la 
+vitesse d'&#233;criture de votre clef USB. Il ne faut surtout pas &#233;teindre 
+votre machine avant.
+
+* Pour la mise &#224; jour du syst&#232;me d'explotation: cela n'est pas possible 
+car seule les applications web sont en mode lecture, &#233;criture. Installer 
+de nouvelles applications n'est pas possible non plus (sauf pour les 
+applications webs) car le syst&#232;me de fichier du syst&#232;me d'exploitation 
+est en lecture seule. L'inconv&#233;nient est qu'il est fig&#233; et donc qu'il 
+est impossible d'ajouter de nouvelles applications. L'avantage c'est 
+qu'il est comme neuf &#224; chaque red&#233;marrage: les virus et autres malwares 
+tr&#233;passent. Pour avoir un syst&#232;me d'exploitation avec un syst&#232;me de 
+fichier en lecture / &#233;criture il faut utiliser l'option casper-rw du 
+mode persistent de l'installeur Live USB, mais vous perdrez les 
+possibilit&#233;s nomades de Cooperation-iws: la clef usb ne sera utilisable 
+que sur un seul PC.
+
+* Pour le &quot;pas suffisament d'espace m&#233;moire&quot;, cela signifie que toute la 
+RAM de votre machine a &#233;t&#233; utilis&#233;e. Lorsque vous installez des 
+applications celles ci sont sauvegard&#233;es en RAM car votre syst&#232;me de 
+fichier est en lecture seule. La solution est d'utiliser une machine 
+avec plus de RAM.
+
+* Pour les param&#232;tres wifi, c'est normal car vous avez choisit l'option 
+ciws-rw du mode persistent, cela signifie que le r&#233;pertoire /home de 
+votre utilisateur n'est pas sauvegard&#233;. Comme les identifiants de 
+connection sont sauvegard&#233;s dans le r&#233;pertoire /home, ils sont perdus &#224; 
+chaque red&#233;marrage. Cela sera modifi&#233; dans la version 0.9 de 
+Cooperation-iws, les r&#233;pertoires /home et des serveurs seront tous les 
+deux persistents.
+
+* Pour le d&#233;clenchement du message d'erreur li&#233; &#224; Pyzor, c'est un bug 
+li&#233; &#224; l'application Pyzor, cela sera modifi&#233; dans la version 0.9. Mais 
+c'est un bug non bloquant.
+
+* Pour le d&#233;clenchement intempestif du trousseau de clef, cela est 
+probablement du &#224; une mauvaise saisie des param&#232;tres de clefs ou au fait 
+que le r&#233;pertoire /home n'est pas persistent. La solution temporaire 
+dans ce cas est d'utiliser le serveur avec un cable ethernet (si 
+possible). Vous pouvez &#233;galement saisir les commandes de param&#233;trages de 
+votre environnement wifi dans le fichier /var/share/etc/rc.ciws qui est 
+persistent. Ce fichier est lanc&#233; automatiquement &#224; chaque d&#233;marrage et 
+vous permettra de param&#233;trer automatiquement le wifi.
+
+
+A bient&#244;t et n'h&#233;sitez pas &#224; me poser d'autres questions si mes 
+explications ne sont pas claires,
+
+Olivier
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000009.html">[Ciws-help-fr] Installation sur cl&#233; USB et mises &#224; jour
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10">[ date ]</a>
+              <a href="thread.html#10">[ thread ]</a>
+              <a href="subject.html#10">[ subject ]</a>
+              <a href="author.html#10">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ciws-help-fr">More information about the Ciws-help-fr
+mailing list</a><br>
+</body></html>

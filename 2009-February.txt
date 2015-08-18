@@ -1,0 +1,327 @@
+From oliv at gensys-net.eu  Mon Feb  9 19:27:20 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:27:20 +0000
+Subject: [Ciws-help-fr] =?utf-8?q?proposition_d=27=C3=A9volution_pour_iws?=
+Message-ID: <49907588.40901@gensys-net.eu>
+
+?Bonjour,
+
+Je ne sais pas si c'est la meilleurs cat?gorie pour en parler mais comme 
+ce n'est pas vraiment un probl?me...
+Serait-il possible de publier une "roadmap" pour le projet?
+Pas forcement, ultra compl?te ou exaustive sur les ?volutions ? venir 
+mais qui liste au moins une partie des applications que tu souhaites 
+impl?menter dans une prochaine version et les am?liorations que tu 
+souhaites apporter au projet ? moyen / long terme.
+A la limite un wiki serait pas mal pour ?a (?a fait un peu "Elephant 
+pour ecraser une mouche" dans un premier temps mais si la communaut? 
+venait ? s'agrandir je pense que ce serait un outil formidable de 
+collaboration et de pr?sentation au public des avanc?es du projet ...).
+Serait-il possible ?galement de nous pr?senter les modifications que tu 
+as ?ventuellement apport? aux applications et ? l'OS (vlan! wiki le 
+retour :p)
+
+enfin, ma fameuse proposition d'?volution: serait-il possible d'int?grer 
+du ssl aux applications? plus pr?cis?ment, pouvoir rentrer sur le 
+serveur ? la fois en http et https voir en sftp.
+?a ne r?soudra pas tout les probl?mes de s?curit? mais ?a ?vitera au 
+moins la circulation en clair des mot de passe et des donn?es ^^.
+
+Alexandre
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:28:39 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:28:39 +0000
+Subject: [Ciws-help-fr]
+ =?utf-8?q?proposition_d=27=C3=A9volution_pour_iws?=
+In-Reply-To: <49907588.40901@gensys-net.eu>
+References: <49907588.40901@gensys-net.eu>
+Message-ID: <499075D7.8000708@gensys-net.eu>
+
+?Re-bonjour Alexandre,
+
+C'est une bonne place ici pour parler des ?volutions de Cooperation-iws. 
+Cooperation-iws est d?velopp? sur un syst?me Trac / Subversion (le m?me 
+que celui disponible dans la version d?di?e au d?veloppement).
+
+Pour l'instant il n'est pas pr?vu de publier la Roadmap de 
+Cooperation-iws sur Internet. Je peux cependant avancer quelques pistes 
+pour les prochaines versions: l'ajout de nouvelles applications ainsi 
+que l'am?lioration de l'architecture du serveur (Syst?me d'exploitation 
++ Serveurs webs). Cooperation-iws est d'ailleurs pr?t ? tester les 
+nouvelles applications d?velopp?es par la communaut? et les int?grer 
+dans les diff?rentes versions, la maturit? venue. Il y aura ?galement la 
+cr?ation d'un espace d?di? ? la traduction des interfaces de 
+Cooperation-iws.
+
+Pour les remont?es de bugs il y a l'espace de Cooperation-iws sur 
+Launchpad: https://launchpad.net/cooperation-iws
+
+Pour l'ajout du SSL, c'est une bonne id?e, cela devrait ?tre ajout? dans 
+les versions 0.7 ou 0.9.
+
+A bient?t,
+
+Olivier
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:29:06 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:29:06 +0000
+Subject: [Ciws-help-fr]
+ =?utf-8?q?proposition_d=27=C3=A9volution_pour_iws?=
+In-Reply-To: <499075D7.8000708@gensys-net.eu>
+References: <49907588.40901@gensys-net.eu> <499075D7.8000708@gensys-net.eu>
+Message-ID: <499075F2.8010002@gensys-net.eu>
+
+?Bonjour,
+Dommage pour pour la roadmap ^^
+
+Merci d'avoir pris le temps de r?pondre ? mes questions =)
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:30:54 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:30:54 +0000
+Subject: [Ciws-help-fr] login,mdp
+Message-ID: <4990765E.6050009@gensys-net.eu>
+
+?Bonjour ? tous,
+
+J'ai d?couvert il y a peu (il y a environ deux heures quoi :p) cette 
+distribution.
+Tout d'abord je souhaite f?liciter la communaut? (ou l'entreprise?) 
+derri?re ce projet, en effet il r?pond compl?tement ? mon cahier des 
+charges (pour le moment d'un point de vue personnel).
+Autrement, je suis actuellement en train de faire tourner la version 
+iws-personnal version 0.7 et je ne trouve pas le login/mdp associ? ? 
+eyeOS et webmin, j'ai bien entendu essay? les mots de passe affich?s sur 
+la page de telechargement mais syst?matiquement je me prend un login 
+failure (j'ai ?galement essay? "admin" seul et sans login ni mdp mais 
+sans plus de succ?s) donc quel est le bon sezam pour profiter de ces 2 
+applications?
+
+Je jeterai un oeil sur la documentation de ces deux applications web 
+(dans une premier temps pour r?cuperer les login/mdp par d?faut puis en 
+cas d'echec pour voir comment les r?initialiser) mais je pense important 
+de signaler ici le probl?me rencontr?.
+
+merci!
+
+Alexandre
+
+[edit]
+"? propos" semble indiquer que c'est un projet communautaire de m'sieur 
+Olivier Avenel, bon courage ? toi et bravo =)
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:31:32 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:31:32 +0000
+Subject: [Ciws-help-fr] login,mdp
+In-Reply-To: <4990765E.6050009@gensys-net.eu>
+References: <4990765E.6050009@gensys-net.eu>
+Message-ID: <49907684.9080607@gensys-net.eu>
+
+?Bonjour,
+
+Merci pour ton int?r?t pour Cooperation-iws.
+
+Les logins mots de passe de Eyeos et Webmin sont root / cooperation. Je 
+vais les rajouter sur les pages de t?l?chargement.
+
+A bient?t,
+
+Olivier
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:31:50 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:31:50 +0000
+Subject: [Ciws-help-fr] login,mdp
+In-Reply-To: <4990765E.6050009@gensys-net.eu>
+References: <4990765E.6050009@gensys-net.eu>
+Message-ID: <49907696.2030702@gensys-net.eu>
+
+?merci beaucoup m'sieur
+
+Alexandre
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:32:43 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:32:43 +0000
+Subject: [Ciws-help-fr] Login et mdp version development
+Message-ID: <499076CB.1040200@gensys-net.eu>
+
+?Bonjour ? tous,
+
+Et bravo pour ton travail Olivier : formidable cette id?e de serveur, 
+c'est bien pratique :D !
+
+Je suis en train d'installer la version Development, mais je n'arrive 
+pas ? acceder ? Bugzilla en mode admin...
+J'ai bien suivi les instructions, et notamment en relevant le mot de 
+passe indiqu? sur la page de t?l?chargement, mais pas moyen : Login 
+incorrect ou mot de passe non valide :(
+
+D'autre part, concernant Mantis, une petite correction ? apporter 
+?galement :
+log admin = administrator (et non pas admin)
+pass = cooperation
+
+Cordialement
+
+B at u
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:33:32 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:33:32 +0000
+Subject: [Ciws-help-fr] Login et mdp version development
+In-Reply-To: <499076CB.1040200@gensys-net.eu>
+References: <499076CB.1040200@gensys-net.eu>
+Message-ID: <499076FC.3060609@gensys-net.eu>
+
+?Eureka,
+
+C'est bon, j'ai trouv? pour Bugzilla : log admin = admin at ciws.com 
+<mailto:admin at ciws.com> , pass = cooperation
+
+Et encore bravo pour le boulot ;-)
+
+B at u
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:33:56 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:33:56 +0000
+Subject: [Ciws-help-fr] Login et mdp version development
+In-Reply-To: <499076FC.3060609@gensys-net.eu>
+References: <499076CB.1040200@gensys-net.eu> <499076FC.3060609@gensys-net.eu>
+Message-ID: <49907714.6070606@gensys-net.eu>
+
+Merci,
+
+Olivier
+
+Olivier Avenel 
+<http://www.cooperation-iws.eu/forum/memberlist.php?mode=viewprofile&u=2&sid=5f52a3a979a34f8d7ab9e547cd6997de> 
+
+    Site Admin
+     
+    *Posts:* 19
+    *Joined:* Tue Nov 11, 2008 1:03 pm
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:34:53 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:34:53 +0000
+Subject: [Ciws-help-fr] =?utf-8?q?Installation_sur_cl=C3=A9_USB_et_mises_?=
+	=?utf-8?q?=C3=A0_jour?=
+Message-ID: <4990774D.1000203@gensys-net.eu>
+
+?Bonjour,
+
+J'ai install? sur une cl? 4 GB, la version serveur "standalone" d?di?e ? 
+l'intranet familial, en cochant l'option partition permanente ciws 
+(ciws-rw for cooperation-iws server). Le logiciel Live USB a alors cr?? 
+2 partitions mont?es respectivement sur /cdrom et /var. Jusque l? tout 
+s'est bien pass?. ;)
+Le 1ier reboot s'est mal pass?, ?cran noir, mais ? partir du 2i?me essai 
+?a a march?.
+
+J'ai ensuite essay? d'effectuer une mise ? jour des logiciels en 
+utilisant synaptic. Et l? ?a a ?t? la catastrophe. L'outil m'a propos? 
+de mettre ? niveau 125 paquets, mais n'a pu y arriver, 16 mises ? jour 
+restant finalement ? effectuer, en particulier la mise ? jour du kernel. 
+Un paquet de messages d'erreur ont ?t? affich?s, en particulier "pas 
+suffisamment d'espace m?moire". :( L'essai de la commande dpkg 
+--configure -a ?chou? ?galement. Je suis alors pass? sur un portable 
+ayant 2Go de m?moire (et non plus 1Go) et ai reboot? sans souci. ;) 
+Synaptic a alors r?ussi ? installer les mises ? jour manquantes. 
+Toutefois, l'image du kernel r?sidant sur /boot, elle est 
+irr?m?diablement perdue au reboot, comme sur tout live CD. :!:
+
+Ma question est donc : les mises ? jour sont elles possibles ? :?: via 
+une install ordinaire sur disque dur interne, sur disque externe USB, 
+sur la cl? USB ? Par ailleurs, en l'?tat certaines fonctionalit?s sont 
+d?faillantes : synchronisation sur serveur internet qui provoque l'arr?t 
+inopin? de pyzor et qui ne marche pas, le mot de passe WPA qui n'est pas 
+sauvegard? au reboot, de m?me que le fuseau horaire, le d?clenchement 
+inopin? du gestionnaire de trousseau qui fait penser au contr?le UAC de 
+Vista!! Bref, je me demande si j'ai fait une fausse manip lors de 
+l'installation et/ou si cette version n'est pas encore stable ? :?:
+
+Cordialement
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:35:16 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:35:16 +0000
+Subject: [Ciws-help-fr]
+ =?utf-8?q?Installation_sur_cl=C3=A9_USB_et_mises_?=
+ =?utf-8?q?=C3=A0_jour?=
+In-Reply-To: <4990774D.1000203@gensys-net.eu>
+References: <4990774D.1000203@gensys-net.eu>
+Message-ID: <49907764.3090109@gensys-net.eu>
+
+?Bonjour,
+
+Tout d'abord, merci pour votre int?r?t pour Cooperation-iws.
+
+* Pour l'?cran noir au premier boot: c'est normal, il faut attendre que 
+le syst?me copie les donn?es sur la partition persistente. Cela n'arrive 
+qu'une fois au premier d?marrage et cela peut ?tre assez long suivant la 
+vitesse d'?criture de votre clef USB. Il ne faut surtout pas ?teindre 
+votre machine avant.
+
+* Pour la mise ? jour du syst?me d'explotation: cela n'est pas possible 
+car seule les applications web sont en mode lecture, ?criture. Installer 
+de nouvelles applications n'est pas possible non plus (sauf pour les 
+applications webs) car le syst?me de fichier du syst?me d'exploitation 
+est en lecture seule. L'inconv?nient est qu'il est fig? et donc qu'il 
+est impossible d'ajouter de nouvelles applications. L'avantage c'est 
+qu'il est comme neuf ? chaque red?marrage: les virus et autres malwares 
+tr?passent. Pour avoir un syst?me d'exploitation avec un syst?me de 
+fichier en lecture / ?criture il faut utiliser l'option casper-rw du 
+mode persistent de l'installeur Live USB, mais vous perdrez les 
+possibilit?s nomades de Cooperation-iws: la clef usb ne sera utilisable 
+que sur un seul PC.
+
+* Pour le "pas suffisament d'espace m?moire", cela signifie que toute la 
+RAM de votre machine a ?t? utilis?e. Lorsque vous installez des 
+applications celles ci sont sauvegard?es en RAM car votre syst?me de 
+fichier est en lecture seule. La solution est d'utiliser une machine 
+avec plus de RAM.
+
+* Pour les param?tres wifi, c'est normal car vous avez choisit l'option 
+ciws-rw du mode persistent, cela signifie que le r?pertoire /home de 
+votre utilisateur n'est pas sauvegard?. Comme les identifiants de 
+connection sont sauvegard?s dans le r?pertoire /home, ils sont perdus ? 
+chaque red?marrage. Cela sera modifi? dans la version 0.9 de 
+Cooperation-iws, les r?pertoires /home et des serveurs seront tous les 
+deux persistents.
+
+* Pour le d?clenchement du message d'erreur li? ? Pyzor, c'est un bug 
+li? ? l'application Pyzor, cela sera modifi? dans la version 0.9. Mais 
+c'est un bug non bloquant.
+
+* Pour le d?clenchement intempestif du trousseau de clef, cela est 
+probablement du ? une mauvaise saisie des param?tres de clefs ou au fait 
+que le r?pertoire /home n'est pas persistent. La solution temporaire 
+dans ce cas est d'utiliser le serveur avec un cable ethernet (si 
+possible). Vous pouvez ?galement saisir les commandes de param?trages de 
+votre environnement wifi dans le fichier /var/share/etc/rc.ciws qui est 
+persistent. Ce fichier est lanc? automatiquement ? chaque d?marrage et 
+vous permettra de param?trer automatiquement le wifi.
+
+
+A bient?t et n'h?sitez pas ? me poser d'autres questions si mes 
+explications ne sont pas claires,
+
+Olivier
+
+
